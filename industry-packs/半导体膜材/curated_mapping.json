@@ -1,0 +1,724 @@
+{
+  "version": "1.2.0",
+  "as_of": "2026-08-30",
+  "relations": [
+    {
+      "relation_id": "R-001",
+      "subject": "ALD前驱体",
+      "predicate": "对应工艺",
+      "object": "ALD",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-102",
+        "F-103"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-002",
+      "subject": "CVD前驱体",
+      "predicate": "对应工艺",
+      "object": "CVD",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-102",
+        "F-103"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-003",
+      "subject": "PVD高纯溅射靶材",
+      "predicate": "对应工艺",
+      "object": "PVD物理气相沉积",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-104",
+        "F-117"
+      ],
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-004",
+      "subject": "High-k介质",
+      "predicate": "形成薄膜",
+      "object": "High-k栅介质薄膜",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-010",
+        "F-110",
+        "F-116"
+      ],
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-005",
+      "subject": "Low-k介质",
+      "predicate": "形成薄膜",
+      "object": "Low-k互连介质薄膜",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-109",
+        "F-116"
+      ],
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-006",
+      "subject": "钼金属化前驱体",
+      "predicate": "对应工艺",
+      "object": "Mo ALD",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-012",
+        "F-115"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ]
+    },
+    {
+      "relation_id": "R-007",
+      "subject": "Mo ALD",
+      "predicate": "形成薄膜",
+      "object": "钼金属化薄膜",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-012",
+        "F-113",
+        "F-115"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ]
+    },
+    {
+      "relation_id": "R-008",
+      "subject": "PVD物理气相沉积",
+      "predicate": "形成薄膜",
+      "object": "导电层/阻挡层/接触层",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-104",
+        "F-117",
+        "F-119"
+      ],
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-009",
+      "subject": "High-k栅介质薄膜",
+      "predicate": "用于器件",
+      "object": "GAA环绕栅极",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-010",
+        "F-124"
+      ],
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-010",
+      "subject": "金属栅/功函数层",
+      "predicate": "用于器件",
+      "object": "GAA环绕栅极",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-010",
+        "F-124"
+      ],
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-011",
+      "subject": "钼金属化薄膜",
+      "predicate": "用于器件",
+      "object": "3D NAND",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-129",
+        "F-130"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-012",
+      "subject": "钼金属化薄膜",
+      "predicate": "用于器件",
+      "object": "DRAM",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-129",
+        "F-130"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-013",
+      "subject": "钼金属化薄膜",
+      "predicate": "用于器件",
+      "object": "GAA环绕栅极",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-129"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-014",
+      "subject": "GAA环绕栅极",
+      "predicate": "面向节点",
+      "object": "N2/A14",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-020",
+        "F-120",
+        "F-124"
+      ],
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ]
+    },
+    {
+      "relation_id": "R-015",
+      "subject": "GAA环绕栅极",
+      "predicate": "面向节点",
+      "object": "A14",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-121",
+        "F-125"
+      ],
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ]
+    },
+    {
+      "relation_id": "R-016",
+      "subject": "forksheet",
+      "predicate": "面向节点",
+      "object": "A10",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-126",
+        "F-127",
+        "F-128"
+      ],
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ]
+    },
+    {
+      "relation_id": "R-017",
+      "subject": "CFET",
+      "predicate": "面向节点",
+      "object": "A7",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-125",
+        "F-126"
+      ],
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ]
+    },
+    {
+      "relation_id": "R-018",
+      "subject": "3D NAND",
+      "predicate": "面向节点",
+      "object": "1000层3D NAND",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-129"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-019",
+      "subject": "DRAM",
+      "predicate": "面向节点",
+      "object": "4F² DRAM",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-129"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-020",
+      "subject": "先进封装薄膜材料",
+      "predicate": "用于器件",
+      "object": "先进封装",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-024",
+        "F-122",
+        "F-123"
+      ],
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-021",
+      "subject": "南大光电",
+      "predicate": "公司布局材料",
+      "object": "ALD/CVD前驱体",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-015",
+        "F-061",
+        "F-118"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-022",
+      "subject": "南大光电",
+      "predicate": "供应产品",
+      "object": "DIPAS/BDEAS/HCDS/TEOS前驱体",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-015",
+        "F-118"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-023",
+      "subject": "南大光电",
+      "predicate": "客户状态",
+      "object": "国内领先芯片制造企业量产制程",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-061",
+        "F-156"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-024",
+      "subject": "南大光电六氟丁二烯项目",
+      "predicate": "客户状态",
+      "object": "客户验证状态待披露",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-157"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-025",
+      "subject": "江丰电子",
+      "predicate": "公司布局材料",
+      "object": "PVD高纯溅射靶材",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-052",
+        "F-104",
+        "F-154"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF",
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-026",
+      "subject": "江丰电子",
+      "predicate": "供应产品",
+      "object": "铝/钛/钽/铜/钨钛/镍/钨靶材",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-119",
+        "F-154"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-027",
+      "subject": "江丰电子",
+      "predicate": "客户状态",
+      "object": "量产供货",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-148",
+        "F-149",
+        "F-155"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-028",
+      "subject": "雅克科技",
+      "predicate": "公司布局材料",
+      "object": "半导体前驱体材料",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-060",
+        "F-158"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-029",
+      "subject": "雅克科技",
+      "predicate": "客户状态",
+      "object": "客户测试认证中/部分产业化",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-158"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-030",
+      "subject": "ADEKA",
+      "predicate": "公司布局材料",
+      "object": "High-k/Low-k与ALD材料",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-109",
+        "F-110",
+        "F-116",
+        "F-143"
+      ],
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ]
+    },
+    {
+      "relation_id": "R-031",
+      "subject": "ADEKA",
+      "predicate": "供应产品",
+      "object": "ADEKA ORCERA High-k材料",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-143",
+        "F-145"
+      ],
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-032",
+      "subject": "ADEKA",
+      "predicate": "客户状态",
+      "object": "先进存储材料量产产品",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-111"
+      ],
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-033",
+      "subject": "Air Liquide",
+      "predicate": "公司布局材料",
+      "object": "钼基前驱体",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-041",
+        "F-141",
+        "F-142"
+      ],
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ]
+    },
+    {
+      "relation_id": "R-034",
+      "subject": "Air Liquide",
+      "predicate": "客户状态",
+      "object": "客户可行性测试到高产量爬坡",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-041",
+        "F-141"
+      ],
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ]
+    },
+    {
+      "relation_id": "R-035",
+      "subject": "Entegris",
+      "predicate": "公司布局材料",
+      "object": "过渡金属ALD/CVD前驱体",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-106",
+        "F-107",
+        "F-108"
+      ],
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-036",
+      "subject": "JX Advanced Metals",
+      "predicate": "公司布局材料",
+      "object": "铜/钽/钛/钨/钴半导体靶材",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-051",
+        "F-151"
+      ],
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-037",
+      "subject": "JX Advanced Metals",
+      "predicate": "供应产品",
+      "object": "铜/钽/钛/钨/钴半导体靶材",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-151"
+      ],
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ]
+    },
+    {
+      "relation_id": "R-038",
+      "subject": "Lam Research",
+      "predicate": "供应产品",
+      "object": "ALTUS Halo钼ALD方案",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-012",
+        "F-013",
+        "F-114"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ]
+    },
+    {
+      "relation_id": "R-039",
+      "subject": "Lam Research",
+      "predicate": "客户状态",
+      "object": "3D NAND早期采用/DRAM开发中",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "fact_ids": [
+        "F-130"
+      ],
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ]
+    },
+    {
+      "relation_id": "R-040",
+      "subject": "全材料市场口径",
+      "predicate": "风险反证结论",
+      "object": "不能直接替代膜材市场规模",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-003",
+        "F-030",
+        "F-031",
+        "F-091"
+      ],
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.semi.org/zh/node/172076"
+      ]
+    },
+    {
+      "relation_id": "R-041",
+      "subject": "导电层/阻挡层/接触层",
+      "predicate": "用于器件",
+      "object": "晶圆制造金属化",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "fact_ids": [
+        "F-117"
+      ],
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-042",
+      "subject": "晶圆制造金属化",
+      "predicate": "面向节点",
+      "object": "90-3nm",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-119"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-043",
+      "subject": "90-3nm",
+      "predicate": "节点关联公司",
+      "object": "江丰电子",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-119"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-044",
+      "subject": "江丰电子",
+      "predicate": "供应产品",
+      "object": "钽/铜靶材（90-3nm）",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-119"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    },
+    {
+      "relation_id": "R-045",
+      "subject": "钽/铜靶材（90-3nm）",
+      "predicate": "客户状态",
+      "object": "客户侧公开验证缺口",
+      "verification_status": "单一来源",
+      "status": "待验证",
+      "source_basis": "单一公司口径",
+      "fact_ids": [
+        "F-155"
+      ],
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ]
+    }
+  ]
+}

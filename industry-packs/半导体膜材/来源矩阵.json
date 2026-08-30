@@ -1,0 +1,16 @@
+{
+  "中国": {
+    "政府监管": ["工信部", "国家统计局", "海关总署", "国家标准全文公开系统"],
+    "行业协会": ["中国半导体行业协会", "中国电子材料行业协会", "SEMI China"],
+    "公司一手": ["上市公司公告", "招股书", "官网技术资料", "环境影响评价与扩产公示"],
+    "券商咨询": ["头部券商行业报告", "产业咨询机构", "专利与论文数据库"]
+  },
+  "全球": {
+    "政府监管": ["U.S. SEC", "EU Commission", "Japan METI", "Korea MOTIE"],
+    "行业协会": ["SEMI", "SIA", "IEEE", "imec", "IRDS"],
+    "公司一手": ["annual report", "investor presentation", "technical paper", "product datasheet"],
+    "学术标准": ["IEEE Xplore", "ACS", "AVS", "SPIE", "JEDEC"],
+    "咨询研究": ["Gartner", "TechInsights", "Yole Group", "Deloitte", "McKinsey"]
+  },
+  "评级规则": "优先保存原始发布页和原始附件；转载只作发现线索，不计独立来源。"
+}

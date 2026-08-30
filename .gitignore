@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 本地凭据（绝不上传）
+config/credentials.env
+_config/
+
+# 本地资料库/运行产物
+*行业库/
+*runs/
+_output/

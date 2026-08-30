@@ -1,0 +1,1298 @@
+{
+  "version": "1.2.0",
+  "as_of": "2026-08-30",
+  "facts": [
+    {
+      "fact_id": "F-001",
+      "module": "定义与边界",
+      "claim": "本行业库把半导体膜材定义为形成器件功能薄膜的材料集合，核心包括ALD/CVD前驱体、High-k/Low-k介质相关材料、金属栅/阻挡层/互连材料以及PVD高纯溅射靶材；普通硅片、光刻胶、CMP耗材仅作为相邻行业保留接口。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "Linx报告范围第4—7节；SEMI材料分类；Entegris Applications",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-002",
+      "module": "定义与边界",
+      "claim": "薄膜材料必须与沉积工艺共同定义：同一元素体系因ALD、CVD、PVD工艺和器件层位不同，其前驱体形态、纯度、挥发性、输送方式及验证要求并不等价。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "Entegris技术资料Applications；ADEKA ALD能力图；Air Liquide创新流程",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-003",
+      "module": "定义与边界",
+      "claim": "市场规模口径必须区分‘全部半导体材料—晶圆制造材料—先进薄膜材料—具体前驱体/靶材’，不得用732亿美元的全材料口径直接代替膜材市场规模。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "SEMI市场总量新闻稿；TECHCET目录4.1—4.8；Linx目录第7节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-010",
+      "module": "技术与工艺",
+      "claim": "GAA nanosheet的沟道被High-k/metal-gate栈环绕，replacement metal gate需要在狭窄片间完成沉积，因此保形性、界面质量和功函数材料缩放是核心工艺约束。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "imec GAA/RMG章节；TSMC 2025年报N2/A14章节；Linx FEOL目录",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-011",
+      "module": "技术与工艺",
+      "claim": "前驱体工程不是单一‘高纯化学品’问题，而是分子合成、挥发性/热稳定性、杂质控制、薄膜性能、包装输送和规模化制造的联合优化。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "Entegris能力说明；ADEKA合成/挥发性/成膜评价图；Air Liquide客户协作流程",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-012",
+      "module": "技术与工艺",
+      "claim": "先进逻辑和存储的金属化正在评估由钨向钼扩展；Lam披露钼在纳米尺度线宽下可降低电阻且可减少传统黏附/阻挡层，但量产收益仍属于设备与材料供应商的一手主张。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "mapping_relations": [
+        {
+          "subject": "钼金属化前驱体",
+          "predicate": "对应工艺",
+          "object": "Mo ALD"
+        }
+      ],
+      "locator": "Lam‘Molybdenum Enables’章节；Air Liquide钼前驱体开发章节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-013",
+      "module": "技术与工艺",
+      "claim": "Lam宣称ALTUS Halo在多数情形下相较传统钨金属化可改善50%以上电阻；该数值尚缺独立客户公开测试，报告按单一公司技术口径使用。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam官方发布‘In most instances…better than 50%’段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-014",
+      "module": "技术与工艺",
+      "claim": "PVD靶材的关键指标不止金属名义纯度，还包括晶粒/晶向控制、无缺陷焊接、精密加工、清洗包装和批次一致性。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF",
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "江丰电子2025半年报产品与工艺章节；JX 2025集成报告Semiconductor Materials Segment",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-015",
+      "module": "技术与工艺",
+      "claim": "南大光电披露的先进前驱体产品覆盖DIPAS、BDEAS、TDMAT、HCDS、TEOS及多种MO源，证明中国上市公司已形成硅基、钛基及III族金属有机源的组合布局；是否达到头部晶圆厂高阶制程批量份额仍需客户侧验证。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年度报告第13页产品表",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-020",
+      "module": "需求驱动",
+      "claim": "TSMC披露N2已于2025年第四季度进入量产，A14继续采用第二代nanosheet结构；先进逻辑的GAA放量已从研发变量转为实际量产节点变量。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025年报Technology Leadership/N2与A14段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-021",
+      "module": "需求驱动",
+      "claim": "TSMC披露2025年3nm工艺贡献其晶圆收入24%；这一数据说明先进节点已有足够收入基数支撑材料验证与放量，但不能直接推算膜材市场份额。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025年报先进制程收入段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-022",
+      "module": "需求驱动",
+      "claim": "3D NAND层数提升和未来3D DRAM均提高高深宽比结构的刻蚀、保形沉积与无空洞填充要求，推动ALD/CVD工艺强度上升。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf"
+      ],
+      "locator": "Lam NAND/DRAM应用段；Linx Memory Devices；TECHCET 4.3—4.4",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-023",
+      "module": "需求驱动",
+      "claim": "Lam把钼ALD的目标应用明确指向1000层3D NAND、4F² DRAM和先进GAA逻辑；这些是供应商路线图目标，不等同于全行业已规模量产。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam官方发布首段与Volume Production章节",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-024",
+      "module": "需求驱动",
+      "claim": "先进封装也需要介质、阻挡、种子、再布线等薄膜，但与晶圆前道前驱体/靶材的纯度、设备和客户认证体系不同，市场建模应单列。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ],
+      "locator": "SEMI Fab/Packaging分类；Linx FEOL/BEOL范围；ADEKA先进封装战略",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-030",
+      "module": "市场规模",
+      "claim": "SEMI披露2025年全球半导体材料收入为732亿美元，同比增长6.8%。这是全部半导体材料总口径，不是半导体膜材子市场规模。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://www.semi.org/zh/node/172076"
+      ],
+      "locator": "SEMI 2026-05-12/13官方新闻稿；中英文属于同一来源族",
+      "as_of": "2026-08-30",
+      "status": "单一来源",
+      "verification_note": "同一来源族：SEMI英文公告与中文镜像，按单一来源处理"
+    },
+    {
+      "fact_id": "F-031",
+      "module": "市场规模",
+      "claim": "SEMI披露2025年晶圆制造材料收入458亿美元，同比增长5.4%；封装材料收入274亿美元，同比增长9.3%。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports"
+      ],
+      "locator": "SEMI新闻稿Wafer fabrication materials与Packaging materials段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-032",
+      "module": "市场规模",
+      "claim": "SEMI披露2025年中国大陆半导体材料收入156亿美元、居全球第二且实现双位数增长；该口径仍是全部材料，不可直接代表国产供应商收入或国产化率。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://www.semi.org/zh/node/172076"
+      ],
+      "locator": "SEMI官方新闻稿地区市场段落；同一来源族",
+      "as_of": "2026-08-30",
+      "status": "单一来源",
+      "verification_note": "同一来源族：SEMI英文公告与中文镜像，按单一来源处理"
+    },
+    {
+      "fact_id": "F-033",
+      "module": "市场规模",
+      "claim": "公开可访问的TECHCET与Linx材料只确认其报告覆盖ALD/CVD/High-k前驱体和PVD等细分预测，未公开完整细分市场数值；正式报告不使用付费报告目录反推市场规模。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "TECHCET目录第4节；Linx第7节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-040",
+      "module": "供应链与利润池",
+      "claim": "先进前驱体产业链至少包括分子设计、原料/配体、合成、纯化与分析、容器和输送、设备侧成膜验证、晶圆厂认证及量产保障；利润池不应只按化学合成能力判断。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "三家公司公开的研发—放大—输送—验证流程",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-041",
+      "module": "供应链与利润池",
+      "claim": "Air Liquide披露半导体新材料采用经历研发、客户/伙伴可行性测试、小批量前驱体制造再到高产量爬坡，过程跨越数年；该表述支持把客户验证周期作为估值折现变量。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "Co-constructing innovation with semiconductor players段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-042",
+      "module": "供应链与利润池",
+      "claim": "高纯靶材供应链的控制点覆盖高纯金属原料、组织控制、焊接加工、检测、清洗包装与客户近场服务；JX和江丰均把稳定供货与客户协同列为竞争能力。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "JX Sputtering Targets章节；江丰产品流程与客户章节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-043",
+      "module": "供应链与利润池",
+      "claim": "对一级市场标的，产能数字只有在对应产品、纯度等级、客户节点、设备稼动、良率和认证状态同时披露时才可进入有效供给测算。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "中国公司产品披露与Entegris规模化制造/质量要求交叉归纳",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-050",
+      "module": "竞争格局",
+      "claim": "全球竞争应按材料子类拆分：JX偏高纯金属与PVD靶材，Entegris/Air Liquide/ADEKA覆盖不同前驱体与输送能力；不存在一个可用单一份额概括的‘膜材总龙头’。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "各公司产品与业务章节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-051",
+      "module": "竞争格局",
+      "claim": "JX在2025集成报告中称其铜、钽、钛、钨、钴等半导体溅射靶材处于全球第一份额；该份额依据公司委托的2021年外部调查，需按‘公司披露、基期较旧’处理。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX 2025集成报告Sputtering Targets for Semiconductors及脚注",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-052",
+      "module": "竞争格局",
+      "claim": "江丰电子披露其靶材已进入TSMC、UMC、SMIC、SK hynix、华虹等客户供应链；客户名单是公司披露，不等同于各客户收入占比或先进节点份额。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "江丰电子2024年报第36页附近客户与竞争地位段落",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-053",
+      "module": "竞争格局",
+      "claim": "竞争壁垒由配方/分子IP、超纯制造、分析检测、设备协同、客户认证、批次一致性和全球本地交付共同构成；只具备实验室合成不等于可商业替代。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "Entegris能力；Air Liquide验证流程；江丰认证壁垒",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-060",
+      "module": "中国国产化",
+      "claim": "中国已出现前驱体综合布局（南大光电、雅克科技）和高纯靶材平台（江丰电子），但公开披露不足以支持一个统一的‘膜材国产化率’数值。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "三家公司年报/半年报产品与经营计划章节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-061",
+      "module": "中国国产化",
+      "claim": "南大光电把前驱体材料定义为半导体薄膜沉积核心原材料，并披露多种硅基和金属有机前驱体；这验证了产品布局，尚未独立验证各产品的量产客户、晶圆节点和收入贡献。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报第13页",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-062",
+      "module": "中国国产化",
+      "claim": "江丰电子披露半导体铜/铜合金靶用于90—3nm节点，并称铜锰合金靶由其与头部跨国企业掌握；该节点覆盖与竞争判断均需晶圆厂或第三方份额资料复核。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报超高纯金属靶材章节",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-063",
+      "module": "中国国产化",
+      "claim": "工信部政策明确支持先进半导体等关键战略材料升级，但政策支持不能替代客户认证、产品良率和商业回款证据。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2024/art_a9950c3b3cbe47b4b45519ce4a376687.html"
+      ],
+      "locator": "实施意见‘全面布局未来产业’相关条款",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-070",
+      "module": "可比公司与资本化",
+      "claim": "JX披露FY2024半导体材料分部收入1480亿日元、同比增长20%，经营利润267亿日元、利润率18.0%；分部还包含钽铌业务，不能直接作为靶材业务利润率。",
+      "verification_status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX 2025集成报告Semiconductor Materials Segment财务表",
+      "as_of": "2026-08-30",
+      "status": "单一来源"
+    },
+    {
+      "fact_id": "F-071",
+      "module": "可比公司与资本化",
+      "claim": "中国可比公司需要按前驱体、靶材、电子特气/输送系统拆分收入与毛利；南大光电、雅克科技、江丰电子的业务组合不同，直接用公司整体估值横比会产生口径偏差。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "三家公司业务构成章节",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-080",
+      "module": "一级市场投资判断",
+      "claim": "优先投资具有‘特定材料—特定薄膜—特定设备—特定客户节点’闭环证据的企业，而不是只有通用产品清单或规划产能的项目。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "跨来源归纳：产品开发、设备验证、客户认证和量产",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-081",
+      "module": "一级市场投资判断",
+      "claim": "前驱体项目的核心尽调里程碑应包括：可重复合成、关键杂质谱、批次一致性、容器/输送、目标设备成膜数据、客户小试/中试/量产状态及有效产能。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "三家全球供应商公开能力链条归纳",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-082",
+      "module": "一级市场投资判断",
+      "claim": "靶材项目的核心尽调里程碑应包括：高纯原料来源、组织与焊接工艺、缺陷/颗粒控制、客户节点、认证周期、回收再生能力和近场服务。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "JX与江丰靶材工艺/供应链章节归纳",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-085",
+      "module": "情景分析",
+      "claim": "基准情景：N2/GAA按已披露节奏放量，3D NAND继续堆叠，前驱体和靶材需求由制程复杂度稳步拉动；投资估值只计入已完成客户验证的有效产能。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "TSMC量产节奏；Lam存储路线；Air Liquide材料验证周期",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-086",
+      "module": "情景分析",
+      "claim": "乐观情景：钼金属化、3D DRAM和更高层3D NAND提前进入多客户量产，中国材料商在高阶节点取得可核验批量订单；上修变量应来自客户数、量产批号和单位晶圆材料强度，而非规划产能。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "Lam钼/存储路线；Linx细分驱动；中国公司产品布局",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-087",
+      "module": "情景分析",
+      "claim": "悲观情景：先进节点或存储资本开支延后、材料降价、客户认证失败或量产良率不足，导致规划产能无法转化为有效供给；估值模型应同时压力测试价格、稼动率、良率和验证延迟。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "SEMI周期口径；Air Liquide验证周期；江丰认证壁垒",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-090",
+      "module": "风险与反证",
+      "claim": "若目标公司无法提供客户侧成膜/良率证据、量产批号、持续订单或回款，‘已通过验证’应降级为营销口径。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients",
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "客户协同验证与规模化质量流程反推的否证条件",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-091",
+      "module": "风险与反证",
+      "claim": "全材料市场增长不能自动推导膜材价格或利润增长；制程迁移可能增加材料步骤，也可能通过降本、配方替代、回收或单位价格下降抵消收入弹性。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf"
+      ],
+      "locator": "市场总量与细分预测方法的口径差异",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-092",
+      "module": "风险与反证",
+      "claim": "供应商关于性能、全球第一或客户导入的披露均需独立验证；本报告对Lam的50%电阻改善、JX份额、江丰客户与节点覆盖保留单一来源标签。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102295.PDF"
+      ],
+      "locator": "三项公司一手主张及各自脚注/段落",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-100",
+      "module": "数据来源与原始素材",
+      "claim": "正式来源集同时包含中国监管披露、工信部政策、全球协会、晶圆厂、设备商、材料商、研究机构与专业咨询机构，且原始网页/PDF在行业库中按地区归档。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF",
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports",
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "行业索引来源目录与原始资料目录",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-101",
+      "module": "数据来源与原始素材",
+      "claim": "SEMI公开材料数据产品说明与TECHCET前驱体报告目录可用于界定研究范围和发现来源，但公开页面及目录本身不等同于完整底层数据集。",
+      "verification_status": "已验证",
+      "source_uris": [
+        "https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf",
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf"
+      ],
+      "locator": "SEMI Materials Market Data产品说明；TECHCET 2025-2026 CMR目录PDF",
+      "as_of": "2026-08-30",
+      "status": "已验证"
+    },
+    {
+      "fact_id": "F-102",
+      "module": "定义与边界",
+      "claim": "南大光电在2025年半年报中将半导体前驱体定义为ALD和CVD薄膜沉积工艺使用的材料，并按硅前驱体/金属前驱体以及高K/低K前驱体进行分类。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报，释义与业务概述，解析文本行132-138",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-103",
+      "module": "定义与边界",
+      "claim": "Entegris和ADEKA均把ALD/CVD前驱体定位为半导体薄膜沉积材料，支持将前驱体按工艺而非单纯化学品目录归类。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ],
+      "locator": "Entegris数据表行24、42；ADEKA半导体材料说明行14、22、39",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-104",
+      "module": "定义与边界",
+      "claim": "JX和江丰电子均把溅射靶材放在半导体薄膜/金属化材料链条中，PVD高纯靶材应作为与ALD/CVD前驱体并列的膜材子类。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "mapping_relations": [
+        {
+          "subject": "PVD高纯溅射靶材",
+          "predicate": "对应工艺",
+          "object": "PVD物理气相沉积"
+        }
+      ],
+      "locator": "JX Integrated Report 2025行151-158；江丰电子2025年半年报行98、271-274",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-105",
+      "module": "定义与边界",
+      "claim": "SEMI MMDS按晶圆制造材料和封装材料分别统计，Linx Advanced Thin Films按FEOL、BEOL、Memory和材料/工艺维度组织，说明膜材研究必须先拆口径再映射工艺。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf",
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "SEMI MMDS one-sheet行13-23、43-46；Linx Advanced Thin Films页面报告目录",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-106",
+      "module": "技术与工艺",
+      "claim": "Entegris过渡金属前驱体资料强调其产品用于薄膜沉积，且覆盖高纯、成熟的金属有机和固态处理能力。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "Entegris transition metal precursors数据表，解析文本行4、18、24-25",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-107",
+      "module": "技术与工艺",
+      "claim": "Entegris资料把ALD/CVD半导体沉积前驱体和低温ALD工艺列为应用场景，说明前驱体规格与设备温度窗口直接相关。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "Entegris transition metal precursors数据表，解析文本行42-43",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-108",
+      "module": "技术与工艺",
+      "claim": "Entegris称其在高纯前驱体高产量制造方面投入和积累超过20年，该能力口径来自公司技术资料，需按供应商一手披露使用。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.entegris.com/content/dam/product-assets/transitionmetalprecursors/datasheet-transitionmetalprecursors-A4.pdf"
+      ],
+      "locator": "Entegris transition metal precursors数据表，解析文本行91",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-109",
+      "module": "技术与工艺",
+      "claim": "ADEKA半导体材料说明把High-k材料、新Low-k材料、光刻材料与ALD材料放在同一半导体材料组合中，显示其覆盖前道介质和图形化相邻材料。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ],
+      "locator": "ADEKA semiconductor materials说明，解析文本行39-56",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-110",
+      "module": "技术与工艺",
+      "claim": "ADEKA 2025公司报告披露其半导体业务重点包括用于前道制程的半导体光刻材料和High-k材料（ALD材料）。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ],
+      "locator": "ADEKA Corporate Report 2025，解析文本行255-257",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-111",
+      "module": "技术与工艺",
+      "claim": "ADEKA半导体材料说明披露其Advanced semiconductor memory领域已有量产产品，并把High-k材料列为核心类别。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ],
+      "locator": "ADEKA semiconductor materials说明，解析文本行45-48",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-112",
+      "module": "技术与工艺",
+      "claim": "Lam披露钨基ALD在过去二十多年中主要用于接触孔和互连线的无空洞填充，是先进金属化的历史主流路线。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam ALTUS Halo新闻稿，解析文本行1957",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-113",
+      "module": "技术与工艺",
+      "claim": "Lam称钼在纳米尺度线宽中相较钨具备更低电阻，且无需额外黏附/阻挡层，可减少工艺步骤；该判断仍属公司技术口径。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam ALTUS Halo新闻稿，解析文本行1960",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-114",
+      "module": "技术与工艺",
+      "claim": "Lam称ALTUS Halo面向多种金属化应用，支持保形沉积、选择性自底向上填充，并能以等离子体能力覆盖温度敏感应用。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam ALTUS Halo新闻稿，解析文本行1961",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-115",
+      "module": "技术与工艺",
+      "claim": "Lam的钼ALD设备发布与Air Liquide超过10年的钼基前驱体研发披露相互印证，先进金属化切换需要设备与前驱体同步成熟。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition",
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "mapping_relations": [
+        {
+          "subject": "钼金属化前驱体",
+          "predicate": "对应工艺",
+          "object": "Mo ALD"
+        }
+      ],
+      "locator": "Lam ALTUS Halo新闻稿行1946-1961；Air Liquide 2025集成报告故事页",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-116",
+      "module": "技术与工艺",
+      "claim": "Linx把High-k栅介质和BEOL Low-k列入先进薄膜报告目录，ADEKA同时披露High-k与新Low-k材料布局，验证High-k/Low-k是膜材taxonomy中的显式分支。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://www.adeka.co.jp/en/ir/library/en/pdf/260225_semiconductor_e.pdf"
+      ],
+      "locator": "Linx Advanced Thin Films页面；ADEKA semiconductor materials说明行39-56",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-117",
+      "module": "技术与工艺",
+      "claim": "Linx把PVD纳入材料市场分析，江丰电子披露高纯溅射靶材用于导电层、阻挡层和接触层制备，验证PVD靶材与金属化薄膜的工艺对应。",
+      "verification_status": "已验证",
+      "status": "已验证",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/",
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "mapping_relations": [
+        {
+          "subject": "PVD高纯溅射靶材",
+          "predicate": "对应工艺",
+          "object": "PVD物理气相沉积"
+        },
+        {
+          "subject": "导电层/阻挡层/接触层",
+          "predicate": "用于器件",
+          "object": "晶圆制造金属化"
+        }
+      ],
+      "locator": "Linx Advanced Thin Films页面；江丰电子2025年半年报行271-274",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-118",
+      "module": "技术与工艺",
+      "claim": "南大光电披露其掌握多种ALD/CVD前驱体合成、纯化、分析检测和封装技术，并建成高纯半导体前驱体自主生产线。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报，解析文本行287-290",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-119",
+      "module": "技术与工艺",
+      "claim": "江丰电子披露其超高纯钛靶及环件应用于130-5nm工艺，钽靶及环件应用于90-3nm先进制程，铜及铜合金靶材通常用于90-3nm技术节点。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行312-327",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-120",
+      "module": "需求驱动",
+      "claim": "TSMC披露其2nm技术已在2025年第四季度进入高量产，N2P和A16计划在2026年下半年量产。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025 Annual Report，解析文本行159-163",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-121",
+      "module": "需求驱动",
+      "claim": "TSMC披露A14采用第二代nanosheet晶体管结构，开发进展良好，并计划于2028年量产。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025 Annual Report，解析文本行165-167",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-122",
+      "module": "需求驱动",
+      "claim": "TSMC披露其正在发展CoWoS、InFO、TSMC-SoIC和TSMC-COUPE等先进封装与3D芯片堆叠技术。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025 Annual Report，解析文本行168-169、4010-4011",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-123",
+      "module": "需求驱动",
+      "claim": "TSMC质量与可靠性部门在2025年完成5.5倍光罩/掩膜尺寸CoWoS先进封装方案认证，并计划2026年启动量产。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025 Annual Report，解析文本行3842-3843",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-124",
+      "module": "需求驱动",
+      "claim": "imec说明GAA nanosheet作为FinFET后继架构，用于继续缩小SRAM和逻辑标准单元，并通过四面包围沟道改善短沟道栅控。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "imec outer-wall forksheet文章，解析文本行1近段落“The near-term logic technology roadmap”",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-125",
+      "module": "需求驱动",
+      "claim": "imec路线图认为GAA nanosheet技术预计至少持续三个技术世代，之后再过渡到CFET。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "imec outer-wall forksheet文章，解析文本中“expected to last for at least three technology generations”段落",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-126",
+      "module": "需求驱动",
+      "claim": "imec认为GAA nanosheet时代需要延伸到A10节点，A10逻辑标准单元高度预期可达90nm，而CFET量产可行性在其路线图中从A7节点开始。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "imec outer-wall forksheet文章，解析文本中“A10 technology node”“90nm”“A7 node”段落",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-127",
+      "module": "需求驱动",
+      "claim": "imec在VLSI 2025展示outer-wall forksheet，相比inner-wall forksheet改进可制造性、栅控和性能，并把介质墙放在标准单元边界以放宽到约15nm。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "imec outer-wall forksheet文章，解析文本中“VLSI 2025”“around 15nm”段落",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-128",
+      "module": "需求驱动",
+      "claim": "imec仿真显示outer-wall forksheet SRAM单元相对A14 nanosheet单元面积降低22%，5nm墙回刻可将驱动电流提升约25%。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology"
+      ],
+      "locator": "imec outer-wall forksheet文章，解析文本中“22 percent area reduction”“~25%”段落",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-129",
+      "module": "需求驱动",
+      "claim": "Lam把钼ALD明确指向1000层3D NAND、4F² DRAM和先进GAA逻辑等未来缩放场景。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam ALTUS Halo新闻稿，解析文本行1958",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-130",
+      "module": "需求驱动",
+      "claim": "Lam披露ALTUS Halo已被韩国和新加坡高量产3D NAND厂以及先进逻辑晶圆厂早期采用，并继续与DRAM客户开发。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://newsroom.lamresearch.com/2025-02-19-Lam-Research-Ushers-in-New-Era-of-Semiconductor-Metallization-with-ALTUS-R-Halo-for-Molybdenum-Atomic-Layer-Deposition"
+      ],
+      "locator": "Lam ALTUS Halo新闻稿，解析文本行1962",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-131",
+      "module": "需求驱动",
+      "claim": "Linx先进薄膜报告目录覆盖Memory Devices，包含2D/3D NAND、MRAM、Cross Point/PCM和DRAM，说明存储器是独立需求分支。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "Linx Advanced Thin Films页面，报告目录Memory Devices部分",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-132",
+      "module": "需求驱动",
+      "claim": "TSMC披露HPC平台覆盖N2、N3、N4、N5等先进节点，AI GPU、AI ASIC等HPC产品可用于AI、云和企业数据中心。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf"
+      ],
+      "locator": "TSMC 2025 Annual Report，解析文本行392-410",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-133",
+      "module": "市场规模",
+      "claim": "SEMI披露台湾地区以217亿美元连续第16年成为最大半导体材料市场，韩国以112亿美元位居第三。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports"
+      ],
+      "locator": "SEMI 2026-05-12新闻稿，解析文本行1730",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-134",
+      "module": "市场规模",
+      "claim": "SEMI披露2025年除欧洲外所有地区半导体材料市场均增长。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports"
+      ],
+      "locator": "SEMI 2026-05-12新闻稿，解析文本行1730",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-135",
+      "module": "市场规模",
+      "claim": "SEMI披露2025年中国大陆和北美在主要地区中录得最强材料市场增长。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/en/semi-press-release/global-semiconductor-materials-market-revenue-reaches-record-73.2-billion-dollars-in-2025-semi-reports"
+      ],
+      "locator": "SEMI 2026-05-12新闻稿，解析文本行1730",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-136",
+      "module": "市场规模",
+      "claim": "SEMI MMDS提供年度材料收入、10年历史数据和两年预测，并按季度更新。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf"
+      ],
+      "locator": "SEMI MMDS one-sheet，解析文本行13-23、43-46",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-137",
+      "module": "市场规模",
+      "claim": "SEMI MMDS覆盖10个晶圆制造材料细分和6个封装材料细分，同时给出七个地区材料收入。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf"
+      ],
+      "locator": "SEMI MMDS one-sheet，解析文本行13-23、43-46",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-138",
+      "module": "市场规模",
+      "claim": "SEMI MMDS说明硅片、光刻胶、工艺气体、引线框架等历史数据来自领先供应商直接提交，并由独立会计机构汇编。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.semi.org/sites/semi.org/files/2025-01/MIT_OneSheet_Materials_MarketData_FINAL010725_Print_v2.pdf"
+      ],
+      "locator": "SEMI MMDS one-sheet，解析文本行43-46",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-139",
+      "module": "市场规模",
+      "claim": "Linx Advanced Thin Films报告披露其预测期为2024-2029年，并按产品和应用预测先进薄膜前驱体与工艺需求，但公开页未给出完整市场规模数值。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.linx-consulting.com/reports-services/advanced-thin-films/"
+      ],
+      "locator": "Linx Advanced Thin Films页面，报告范围与目录",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-140",
+      "module": "市场规模",
+      "claim": "TECHCET公开目录确认其2025-2026 CMR覆盖CVD/ALD Hi-K Metal Precursors，但归档材料为目录，不足以提取正式细分市场规模。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://techcet.com/wp-content/uploads/2025/07/2025-2026-CMR%E2%84%A2-CVD-ALD-Hi-K-Metal-Precursors-07112025-TOC-VB2.pdf"
+      ],
+      "locator": "TECHCET 2025-2026 CMR目录PDF归档",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-141",
+      "module": "供应链与利润池",
+      "claim": "Air Liquide披露半导体新材料采用要经过研发、与客户和伙伴可行性测试、小批量前驱体制造以及高产量爬坡。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "Air Liquide 2025集成报告故事页，2026-04-15发布",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-142",
+      "module": "供应链与利润池",
+      "claim": "Air Liquide披露其正通过韩国和日本新工厂提升产能，以满足不断增长的客户需求。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.airliquide.com/stories/integrated-annual-report/innovating-and-our-customers-and-patients"
+      ],
+      "locator": "Air Liquide 2025集成报告故事页，钼基前驱体段落",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-143",
+      "module": "供应链与利润池",
+      "claim": "ADEKA披露其半导体材料事业部于2024年7月由电子材料事业部改组设立，业务覆盖存储、逻辑、光刻和后道材料。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ],
+      "locator": "ADEKA Corporate Report 2025，解析文本行2359-2395",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-144",
+      "module": "供应链与利润池",
+      "claim": "ADEKA披露研究、销售、企划和营销团队共同服务半导体材料业务，并积极推进与客户的共同创造。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ],
+      "locator": "ADEKA Corporate Report 2025，解析文本行1110-1121、2363-2375",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-145",
+      "module": "供应链与利润池",
+      "claim": "ADEKA披露其通过高纯化、分析、容器和稳定制造等能力响应更严格的半导体标准。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.adeka.co.jp/en/ir/library/pdf/corporate_report2025_full_e_low.pdf"
+      ],
+      "locator": "ADEKA Corporate Report 2025，解析文本行2375-2389",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-146",
+      "module": "供应链与利润池",
+      "claim": "JX Advanced Metals披露其战略包括强化铜和稀有金属供应链，并将半导体材料作为Focus Businesses核心。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX Integrated Report 2025，解析文本行209-237、410-416",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-147",
+      "module": "供应链与利润池",
+      "claim": "JX披露其金属与回收、钽铌业务在全球采购原料，并把资源回收和负责任供应链作为材料业务议题。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX Integrated Report 2025，解析文本行1751-1990、2290-2320、3324",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-148",
+      "module": "供应链与利润池",
+      "claim": "江丰电子披露半导体靶材进入订单驱动生产前需完成客户产品评价；终端客户差异化技术与严格品质要求构成认证阶段的主要门槛。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行349-353",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-149",
+      "module": "供应链与利润池",
+      "claim": "江丰电子披露半导体靶材直销存在供应商准入与产品认证双重门槛；认证完成后进入订单流程，由客户下达月度或季度订单。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行362-367",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-150",
+      "module": "供应链与利润池",
+      "claim": "南大光电披露国内客户主要采取直销模式，并存在部分寄售销售，收入确认需客户签收或领用清单等依据。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报，解析文本行416-425、4512-4514",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-151",
+      "module": "竞争格局",
+      "claim": "JX披露其半导体靶材包括铜、钽、钛、钨、钴等品类，并把半导体溅射靶材列为主要产品。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX Integrated Report 2025，解析文本行151-158、622-643",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-152",
+      "module": "竞争格局",
+      "claim": "JX披露生成式AI和数据中心用半导体材料需求在上一年增长1.5倍，并预计继续增长20%-30%；该需求判断为公司报告口径。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://www.jx-nmm.com/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf"
+      ],
+      "locator": "JX Integrated Report 2025，解析文本行414-416",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-153",
+      "module": "竞争格局",
+      "claim": "江丰电子2025年上半年实现营业收入2,094,692,015.46元，同比增长28.71%。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行179",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-154",
+      "module": "竞争格局",
+      "claim": "江丰电子披露其产品线覆盖先进制程、成熟制程和特色工艺领域，并已构建完整溅射靶材解决方案体系。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行244-246",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-155",
+      "module": "中国国产化",
+      "claim": "江丰电子披露其通过客户认证后产品融入半导体产业核心供应链体系，属于公司侧客户导入口径，仍需客户或第三方验证。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-26/1224570108.PDF"
+      ],
+      "locator": "江丰电子2025年半年报，解析文本行253-256",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-156",
+      "module": "中国国产化",
+      "claim": "南大光电披露2025年上半年先进前驱体销售额和销售量均实现新突破，整体毛利贡献同比增长超过50%。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报，解析文本行480-481",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-157",
+      "module": "风险与反证",
+      "claim": "南大光电披露六氟丁二烯产业化项目已建成30吨/年中试装置，但工艺成熟、品质稳定和客户验证仍需大量研发投入。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-27/1224574859.PDF"
+      ],
+      "locator": "南大光电2025年半年报，解析文本行1147-1148",
+      "as_of": "2026-08-30"
+    },
+    {
+      "fact_id": "F-158",
+      "module": "中国国产化",
+      "claim": "雅克科技披露电子材料位于半导体产业链上游，具有技术门槛高、研发投入大、研发周期长等特点，并说明前驱体材料用于高端存储和逻辑芯片。",
+      "verification_status": "单一来源",
+      "status": "单一来源",
+      "source_uris": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-28/1223314774.PDF"
+      ],
+      "locator": "雅克科技2024年年报，解析文本行206-210、263-269",
+      "as_of": "2026-08-30"
+    }
+  ]
+}

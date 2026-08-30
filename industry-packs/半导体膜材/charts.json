@@ -1,0 +1,220 @@
+{
+  "charts": [
+    {
+      "id": "chart-01",
+      "type": "matrix",
+      "title": "行业全景 Mapping",
+      "as_of": "2026-08-30",
+      "basis": "行业边界、技术路线与投资链路来自策展事实。",
+      "fact_ids": ["F-001", "F-002", "F-040", "F-080"],
+      "columns": ["材料层", "工艺层", "器件层", "投资层"],
+      "rows": [
+        {"label": "前驱体", "cells": [{"label": "硅基/MO源", "tone": "high"}, {"label": "ALD/CVD", "tone": "medium"}, {"label": "GAA/存储", "tone": "high"}, {"label": "闭环验证", "tone": "medium"}]},
+        {"label": "靶材", "cells": [{"label": "高纯金属", "tone": "high"}, {"label": "PVD", "tone": "medium"}, {"label": "互连/阻挡", "tone": "medium"}, {"label": "近场服务", "tone": "medium"}]},
+        {"label": "配套能力", "cells": [{"label": "容器/输送", "tone": "neutral"}, {"label": "成膜评价", "tone": "medium"}, {"label": "客户认证", "tone": "high"}, {"label": "有效产能", "tone": "high"}]}
+      ]
+    },
+    {
+      "id": "chart-02",
+      "type": "flow",
+      "title": "材料—工艺—薄膜—器件关系图",
+      "as_of": "2026-08-30",
+      "basis": "材料定义不能脱离工艺与器件层位。",
+      "fact_ids": ["F-002", "F-010", "F-022"],
+      "nodes": [
+        {"id": "n1", "label": "前驱体/靶材", "column": 0, "row": 1, "tone": "high"},
+        {"id": "n2", "label": "ALD/CVD/PVD", "column": 1, "row": 1, "tone": "medium"},
+        {"id": "n3", "label": "功能薄膜", "column": 2, "row": 1, "tone": "medium"},
+        {"id": "n4", "label": "GAA/DRAM/3D NAND", "column": 3, "row": 1, "tone": "high"}
+      ],
+      "links": [
+        {"from": "n1", "to": "n2", "label": "材料决定工艺窗口"},
+        {"from": "n2", "to": "n3", "label": "工艺形成薄膜"},
+        {"from": "n3", "to": "n4", "label": "薄膜支撑器件"}
+      ]
+    },
+    {
+      "id": "chart-03",
+      "type": "heatmap",
+      "title": "ALD/CVD/PVD 技术对比热力图",
+      "as_of": "2026-08-30",
+      "basis": "公开资料可验证的是技术相对强弱，不是统一精确分值。",
+      "fact_ids": ["F-010", "F-011", "F-014"],
+      "columns": ["保形性", "吞吐量", "深结构适配", "制造成熟度"],
+      "rows": [
+        {"label": "ALD", "cells": [{"label": "高", "tone": "high"}, {"label": "中", "tone": "medium"}, {"label": "高", "tone": "high"}, {"label": "中", "tone": "medium"}]},
+        {"label": "CVD", "cells": [{"label": "中", "tone": "medium"}, {"label": "高", "tone": "high"}, {"label": "中", "tone": "medium"}, {"label": "高", "tone": "high"}]},
+        {"label": "PVD", "cells": [{"label": "低", "tone": "low"}, {"label": "高", "tone": "high"}, {"label": "低", "tone": "low"}, {"label": "高", "tone": "high"}]}
+      ]
+    },
+    {
+      "id": "chart-04",
+      "type": "flow",
+      "title": "GAA 需求传导图",
+      "as_of": "2026-08-30",
+      "basis": "GAA 把保形沉积、界面质量和功函数材料缩放推向核心位置。",
+      "fact_ids": ["F-010", "F-020", "F-080"],
+      "nodes": [
+        {"id": "g1", "label": "GAA量产节点", "column": 0, "row": 1, "tone": "high"},
+        {"id": "g2", "label": "环绕栅极结构", "column": 1, "row": 1, "tone": "medium"},
+        {"id": "g3", "label": "高k/功函数层", "column": 2, "row": 0, "tone": "high"},
+        {"id": "g4", "label": "客户验证闭环", "column": 3, "row": 1, "tone": "high"}
+      ],
+      "links": [
+        {"from": "g1", "to": "g2", "label": "结构变化"},
+        {"from": "g2", "to": "g3", "label": "薄膜要求上升"},
+        {"from": "g3", "to": "g4", "label": "可投机会"}
+      ]
+    },
+    {
+      "id": "chart-05",
+      "type": "flow",
+      "title": "DRAM 与 3D NAND 需求传导图",
+      "as_of": "2026-08-30",
+      "basis": "高深宽比与未来 3D DRAM 提高保形沉积和无空洞填充要求。",
+      "fact_ids": ["F-022", "F-023", "F-024"],
+      "nodes": [
+        {"id": "m1", "label": "层数/结构三维化", "column": 0, "row": 1, "tone": "high"},
+        {"id": "m2", "label": "高深宽比步骤", "column": 1, "row": 1, "tone": "medium"},
+        {"id": "m3", "label": "ALD/CVD强度上升", "column": 2, "row": 1, "tone": "high"},
+        {"id": "m4", "label": "材料价值量提升", "column": 3, "row": 1, "tone": "medium"}
+      ],
+      "links": [
+        {"from": "m1", "to": "m2", "label": "几何复杂化"},
+        {"from": "m2", "to": "m3", "label": "工艺难度提高"},
+        {"from": "m3", "to": "m4", "label": "单位晶圆乘数"}
+      ]
+    },
+    {
+      "id": "chart-06",
+      "type": "bar",
+      "title": "全球市场空间敏感性柱状图",
+      "as_of": "2026-08-30",
+      "basis": "以晶圆制造材料总盘子为锚，用指数而不是伪精确市场值展示薄膜材料敏感性。",
+      "fact_ids": ["F-031", "F-033"],
+      "model_label": "内部模型假设",
+      "bars": [
+        {"label": "低情景", "value": 80, "display": "80 指数", "tone": "low"},
+        {"label": "中情景", "value": 120, "display": "120 指数", "tone": "medium"},
+        {"label": "高情景", "value": 150, "display": "150 指数", "tone": "high"}
+      ]
+    },
+    {
+      "id": "chart-07",
+      "type": "bar",
+      "title": "中国需求池代理敏感性柱状图",
+      "as_of": "2026-08-30",
+      "basis": "基于全球锚点和中国区域权重的代理区间，仅用于需求池排序。",
+      "fact_ids": ["F-031", "F-032", "F-060"],
+      "model_label": "内部模型假设",
+      "bars": [
+        {"label": "保守", "value": 60, "display": "60 指数", "tone": "low"},
+        {"label": "基准", "value": 100, "display": "100 指数", "tone": "medium"},
+        {"label": "积极", "value": 140, "display": "140 指数", "tone": "high"}
+      ]
+    },
+    {
+      "id": "chart-08",
+      "type": "matrix",
+      "title": "产业链控制点和利润池图",
+      "as_of": "2026-08-30",
+      "basis": "利润池集中于知识产权、规模化一致性、应用验证和客户切换成本。",
+      "fact_ids": ["F-040", "F-041", "F-042", "F-043"],
+      "columns": ["壁垒强度", "兑现周期", "资金强度"],
+      "rows": [
+        {"label": "分子/配方设计", "cells": [{"label": "高", "tone": "high"}, {"label": "长", "tone": "medium"}, {"label": "中", "tone": "neutral"}]},
+        {"label": "应用与认证", "cells": [{"label": "高", "tone": "high"}, {"label": "长", "tone": "high"}, {"label": "中", "tone": "neutral"}]},
+        {"label": "规模化制造", "cells": [{"label": "中高", "tone": "medium"}, {"label": "中", "tone": "medium"}, {"label": "高", "tone": "high"}]},
+        {"label": "近场服务/回收", "cells": [{"label": "中", "tone": "neutral"}, {"label": "中", "tone": "neutral"}, {"label": "中", "tone": "medium"}]}
+      ]
+    },
+    {
+      "id": "chart-09",
+      "type": "matrix",
+      "title": "全球厂商能力矩阵",
+      "as_of": "2026-08-30",
+      "basis": "全球竞争需按材料子类和能力链条拆分，不存在统一膜材总龙头。",
+      "fact_ids": ["F-050", "F-051", "F-053"],
+      "columns": ["前驱体", "输送/应用", "高纯靶材", "全球客户服务"],
+      "rows": [
+        {"label": "Entegris", "cells": [{"label": "强", "tone": "high"}, {"label": "强", "tone": "high"}, {"label": "中", "tone": "neutral"}, {"label": "中高", "tone": "medium"}]},
+        {"label": "Air Liquide", "cells": [{"label": "中高", "tone": "medium"}, {"label": "强", "tone": "high"}, {"label": "低", "tone": "low"}, {"label": "中高", "tone": "medium"}]},
+        {"label": "ADEKA", "cells": [{"label": "中高", "tone": "medium"}, {"label": "中", "tone": "neutral"}, {"label": "低", "tone": "low"}, {"label": "中", "tone": "neutral"}]},
+        {"label": "JX", "cells": [{"label": "低", "tone": "low"}, {"label": "低", "tone": "low"}, {"label": "强", "tone": "high"}, {"label": "强", "tone": "high"}]}
+      ]
+    },
+    {
+      "id": "chart-10",
+      "type": "ladder",
+      "title": "中国国产化成熟度阶梯",
+      "as_of": "2026-08-30",
+      "basis": "国产替代应按送样、验证、量产和持续供货分级，而不是使用单一国产化率。",
+      "fact_ids": ["F-060", "F-061", "F-062", "F-090"],
+      "steps": [
+        {"label": "L0 产品布局", "detail": "目录/样品存在", "tone": "low"},
+        {"label": "L1 客户送样", "detail": "开始测试", "tone": "medium"},
+        {"label": "L2 小批验证", "detail": "形成阶段性订单", "tone": "medium"},
+        {"label": "L3 量产认证", "detail": "节点通过认证", "tone": "high"},
+        {"label": "L4 持续量产", "detail": "复购与回款验证", "tone": "high"}
+      ]
+    },
+    {
+      "id": "chart-11",
+      "type": "flow",
+      "title": "公司—产品—客户—节点 Mapping",
+      "as_of": "2026-08-30",
+      "basis": "可投资证据的最小单元是特定产品、客户和节点的闭环，而不是公司层面宣传。",
+      "fact_ids": ["F-052", "F-061", "F-062", "F-080"],
+      "nodes": [
+        {"id": "c1", "label": "公司", "column": 0, "row": 1, "tone": "medium"},
+        {"id": "c2", "label": "具体产品", "column": 1, "row": 0, "tone": "high"},
+        {"id": "c3", "label": "目标客户", "column": 2, "row": 1, "tone": "medium"},
+        {"id": "c4", "label": "节点/批次", "column": 3, "row": 1, "tone": "high"}
+      ],
+      "links": [
+        {"from": "c1", "to": "c2", "label": "布局不能替代证据"},
+        {"from": "c2", "to": "c3", "label": "进入验证漏斗"},
+        {"from": "c3", "to": "c4", "label": "形成可投闭环"}
+      ]
+    },
+    {
+      "id": "chart-12",
+      "type": "radar",
+      "title": "项目一百分评分雷达图",
+      "as_of": "2026-08-30",
+      "basis": "评分卡只用于统一尽调口径，所有分数均为内部模型指数。",
+      "fact_ids": ["F-081", "F-082", "F-090"],
+      "model_label": "内部模型假设",
+      "axes": [
+        {"label": "客户证据", "value": 78, "max": 100},
+        {"label": "成膜性能", "value": 74, "max": 100},
+        {"label": "制造质量", "value": 69, "max": 100},
+        {"label": "产品/IP", "value": 72, "max": 100},
+        {"label": "单位经济", "value": 64, "max": 100},
+        {"label": "团队协同", "value": 70, "max": 100}
+      ]
+    },
+    {
+      "id": "chart-13",
+      "type": "bar",
+      "title": "基准/乐观/悲观情景图",
+      "as_of": "2026-08-30",
+      "basis": "情景图用相对指数表达验证进度和需求弹性，不伪造精确收入。",
+      "fact_ids": ["F-085", "F-086", "F-087"],
+      "model_label": "内部模型假设",
+      "bars": [
+        {"label": "悲观", "value": 70, "display": "70 指数", "tone": "risk"},
+        {"label": "基准", "value": 100, "display": "100 指数", "tone": "medium"},
+        {"label": "乐观", "value": 135, "display": "135 指数", "tone": "positive"}
+      ]
+    },
+    {
+      "id": "chart-14",
+      "type": "evidence",
+      "title": "证据覆盖与来源结构图",
+      "as_of": "2026-08-30",
+      "basis": "报告质量取决于已验证、多来源和单一来源项的结构，而非单纯叙事长度。",
+      "fact_scope": "all"
+    }
+  ]
+}

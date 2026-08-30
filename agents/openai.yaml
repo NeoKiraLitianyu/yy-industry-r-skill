@@ -1,0 +1,7 @@
+interface:
+  display_name: "中国与全球行业研究"
+  short_description: "面向中国与全球资料的可审计全中文行业研究与行业图谱工具"
+  default_prompt: "Use $yy-industry-r-skill to 研究半导体膜材并建立可审计行业库。"
+
+policy:
+  allow_implicit_invocation: true

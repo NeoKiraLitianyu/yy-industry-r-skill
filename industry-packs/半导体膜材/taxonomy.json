@@ -1,0 +1,499 @@
+{
+  "schema_version": "1.2.0",
+  "core_terms": [
+    "半导体膜材",
+    "半导体薄膜材料",
+    "ALD",
+    "CVD",
+    "PVD",
+    "High-k",
+    "Low-k",
+    "precursor",
+    "sputtering target",
+    "GAA",
+    "backside power delivery",
+    "DRAM",
+    "3D NAND",
+    "ALD前驱体",
+    "CVD前驱体",
+    "High-k介质",
+    "Low-k介质",
+    "金属化材料",
+    "PVD高纯溅射靶材",
+    "先进封装"
+  ],
+  "query_terms": {
+    "china": [
+      "半导体 ALD 前驱体 中国 研报",
+      "半导体 CVD 前驱体 中国 协会",
+      "高k 低k 材料 国产化",
+      "高纯溅射靶材 中国 公司 公告",
+      "GAA 薄膜材料 需求",
+      "DRAM 电容 ALD 前驱体",
+      "3D NAND 高深宽比 沉积 材料",
+      "背面供电 阻挡层 金属化",
+      "半导体材料 招股书 前驱体 靶材"
+    ],
+    "global": [
+      "semiconductor ALD precursor market report",
+      "CVD precursor semiconductor official report",
+      "high-k low-k dielectric materials GAA",
+      "high purity sputtering target semiconductor roadmap",
+      "DRAM capacitor ALD materials",
+      "3D NAND high aspect ratio deposition precursor",
+      "backside power delivery thin film materials",
+      "advanced packaging thin film barrier seed layer"
+    ]
+  },
+  "layers": {
+    "材料": [
+      "ALD前驱体",
+      "CVD前驱体",
+      "硅前驱体",
+      "金属前驱体",
+      "High-k介质",
+      "Low-k介质",
+      "金属化材料",
+      "PVD高纯溅射靶材",
+      "钨/钼/钌先进金属化材料",
+      "先进封装薄膜材料"
+    ],
+    "工艺": [
+      "ALD原子层沉积",
+      "CVD化学气相沉积",
+      "PVD物理气相沉积",
+      "RMG替代金属栅",
+      "BEOL金属化",
+      "高深宽比填充",
+      "混合键合/先进封装沉积"
+    ],
+    "薄膜": [
+      "High-k栅介质薄膜",
+      "Low-k互连介质薄膜",
+      "金属栅/功函数层",
+      "钨金属化薄膜",
+      "钼金属化薄膜",
+      "钌金属化薄膜",
+      "导电层/阻挡层/接触层",
+      "再布线/种子/阻挡薄膜"
+    ],
+    "器件/应用": [
+      "GAA环绕栅极",
+      "DRAM",
+      "3D DRAM",
+      "3D NAND",
+      "先进逻辑",
+      "晶圆制造金属化",
+      "先进封装"
+    ],
+    "节点/结构": [
+      "N2/A14",
+      "N2/A16",
+      "A14",
+      "A10",
+      "A7",
+      "90-3nm",
+      "1000层3D NAND",
+      "4F² DRAM"
+    ],
+    "公司": [
+      "TSMC",
+      "Lam Research",
+      "Air Liquide",
+      "Entegris",
+      "ADEKA",
+      "JX Advanced Metals",
+      "南大光电",
+      "江丰电子",
+      "雅克科技"
+    ],
+    "产品": [
+      "DIPAS/BDEAS/HCDS/TEOS前驱体",
+      "ADEKA ORCERA High-k材料",
+      "ALTUS Halo钼ALD方案",
+      "铜/钽/钛/钨/钴半导体靶材",
+      "铝/钛/钽/铜/钨钛/镍/钨靶材",
+      "钽/铜靶材（90-3nm）"
+    ],
+    "客户状态": [
+      "客户验证状态待披露",
+      "小批量验证",
+      "量产供货",
+      "供应商一手披露",
+      "客户侧公开验证缺口"
+    ]
+  },
+  "nodes": {
+    "ALD前驱体": [
+      "ALD前驱体",
+      "原子层沉积前驱体"
+    ],
+    "CVD前驱体": [
+      "CVD前驱体",
+      "化学气相沉积前驱体"
+    ],
+    "硅基前驱体": [
+      "硅基前驱体",
+      "硅前驱体",
+      "silicon precursor",
+      "silane",
+      "disilane",
+      "TEOS",
+      "DCS"
+    ],
+    "金属基前驱体": [
+      "金属基前驱体",
+      "金属前驱体",
+      "metal precursor",
+      "hafnium precursor",
+      "tungsten precursor",
+      "ruthenium precursor"
+    ],
+    "高k介质": [
+      "高k",
+      "High-k",
+      "HfO2",
+      "ZrO2",
+      "Al2O3",
+      "高介电常数"
+    ],
+    "低k介质": [
+      "低k",
+      "Low-k",
+      "ULK",
+      "SiCOH",
+      "多孔低k",
+      "低介电常数"
+    ],
+    "PVD高纯溅射靶材": [
+      "PVD高纯溅射靶材",
+      "高纯靶材",
+      "超高纯金属溅射靶材"
+    ],
+    "PVD溅射靶材": [
+      "PVD",
+      "溅射靶材",
+      "sputtering target",
+      "物理气相沉积"
+    ],
+    "金属栅与功函数层": [
+      "金属栅",
+      "metal gate",
+      "功函数层",
+      "work function metal",
+      "TiN",
+      "TaN"
+    ],
+    "阻挡层与衬垫层": [
+      "阻挡层",
+      "barrier",
+      "衬垫层",
+      "liner",
+      "TaN",
+      "TiN",
+      "Ru liner"
+    ],
+    "互连金属": [
+      "铜互连",
+      "钨互连",
+      "钴互连",
+      "钌互连",
+      "Cu interconnect",
+      "Ru interconnect"
+    ],
+    "GAA环绕栅极": [
+      "GAA环绕栅极",
+      "GAA nanosheet"
+    ],
+    "背面供电": [
+      "背面供电",
+      "backside power delivery",
+      "BSPDN",
+      "PowerVia"
+    ],
+    "DRAM电容": [
+      "DRAM电容",
+      "DRAM capacitor",
+      "高深宽比电容",
+      "高k电容介质"
+    ],
+    "3D NAND高深宽比结构": [
+      "3D NAND",
+      "高深宽比",
+      "HAR",
+      "层数",
+      "channel hole",
+      "word line"
+    ],
+    "先进封装薄膜": [
+      "先进封装",
+      "advanced packaging",
+      "RDL",
+      "UBM",
+      "seed layer",
+      "hybrid bonding",
+      "混合键合"
+    ],
+    "纯度与杂质控制": [
+      "5N",
+      "6N",
+      "纯度",
+      "杂质",
+      "金属杂质",
+      "particle",
+      "ppb",
+      "ppt"
+    ],
+    "膜厚均匀性与保形性": [
+      "膜厚均匀性",
+      "uniformity",
+      "保形性",
+      "conformality",
+      "step coverage"
+    ],
+    "缺陷与界面控制": [
+      "缺陷密度",
+      "界面态",
+      "漏电",
+      "breakdown",
+      "adhesion",
+      "interface"
+    ],
+    "客户认证与供应安全": [
+      "客户认证",
+      "qualification",
+      "供应安全",
+      "dual source",
+      "变更管理",
+      "PCN"
+    ],
+    "先进制程需求": [
+      "先进制程",
+      "FinFET",
+      "GAA",
+      "DRAM",
+      "3D NAND",
+      "EUV",
+      "背面供电"
+    ],
+    "全球竞争格局": [
+      "market share",
+      "全球份额",
+      "竞争格局",
+      "供应商",
+      "vendor"
+    ],
+    "中国国产化": [
+      "国产化率",
+      "国产替代",
+      "本土供应商",
+      "自主可控"
+    ],
+    "国产化与投资机会": [
+      "投资机会",
+      "一级市场",
+      "融资",
+      "扩产",
+      "国产替代"
+    ],
+    "融资并购与产能扩张": [
+      "融资",
+      "并购",
+      "收购",
+      "产能扩张",
+      "新建产线",
+      "IPO"
+    ],
+    "High-k介质": [
+      "High-k介质",
+      "高K介质",
+      "High-k materials"
+    ],
+    "Low-k介质": [
+      "Low-k介质",
+      "低K介质",
+      "Low-k materials"
+    ],
+    "金属化材料": [
+      "金属化材料",
+      "互连金属化材料"
+    ],
+    "DRAM": [
+      "DRAM",
+      "Dynamic Random Access Memory"
+    ],
+    "3D NAND": [
+      "3D NAND",
+      "三维NAND"
+    ],
+    "先进封装": [
+      "先进封装",
+      "CoWoS",
+      "SoIC",
+      "hybrid bonding"
+    ],
+    "钼金属化薄膜": [
+      "钼金属化薄膜",
+      "Molybdenum metallization"
+    ],
+    "High-k栅介质薄膜": [
+      "High-k栅介质薄膜",
+      "高K栅介质薄膜"
+    ],
+    "Low-k互连介质薄膜": [
+      "Low-k互连介质薄膜",
+      "低K互连介质"
+    ],
+    "N2/A16": [
+      "N2/A16",
+      "2nm/A16"
+    ],
+    "DIPAS/BDEAS/HCDS/TEOS前驱体": [
+      "DIPAS/BDEAS/HCDS/TEOS前驱体",
+      "南大光电硅基前驱体组合"
+    ],
+    "客户验证状态待披露": [
+      "客户验证状态待披露",
+      "客户侧公开验证缺口"
+    ],
+    "N2/A14": [
+      "N2/A14",
+      "2nm/A14",
+      "N2到A14路线"
+    ]
+  },
+  "node_metadata": {
+    "ALD前驱体": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-102",
+        "F-103",
+        "F-106"
+      ]
+    },
+    "CVD前驱体": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-102",
+        "F-103",
+        "F-107"
+      ]
+    },
+    "PVD高纯溅射靶材": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-104",
+        "F-117",
+        "F-119"
+      ]
+    },
+    "GAA环绕栅极": {
+      "layer": "器件/应用",
+      "fact_ids": [
+        "F-010",
+        "F-124",
+        "F-125"
+      ]
+    },
+    "High-k介质": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-102",
+        "F-110",
+        "F-116"
+      ]
+    },
+    "Low-k介质": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-102",
+        "F-109",
+        "F-116"
+      ]
+    },
+    "金属化材料": {
+      "layer": "材料",
+      "fact_ids": [
+        "F-112",
+        "F-113",
+        "F-117"
+      ]
+    },
+    "DRAM": {
+      "layer": "器件/应用",
+      "fact_ids": [
+        "F-022",
+        "F-129",
+        "F-131"
+      ]
+    },
+    "3D NAND": {
+      "layer": "器件/应用",
+      "fact_ids": [
+        "F-022",
+        "F-129",
+        "F-130"
+      ]
+    },
+    "先进封装": {
+      "layer": "器件/应用",
+      "fact_ids": [
+        "F-024",
+        "F-122",
+        "F-123"
+      ]
+    },
+    "钼金属化薄膜": {
+      "layer": "薄膜",
+      "fact_ids": [
+        "F-012",
+        "F-113",
+        "F-115"
+      ]
+    },
+    "High-k栅介质薄膜": {
+      "layer": "薄膜",
+      "fact_ids": [
+        "F-010",
+        "F-110",
+        "F-116"
+      ]
+    },
+    "Low-k互连介质薄膜": {
+      "layer": "薄膜",
+      "fact_ids": [
+        "F-109",
+        "F-116"
+      ]
+    },
+    "N2/A16": {
+      "layer": "节点/结构",
+      "fact_ids": [
+        "F-020",
+        "F-120"
+      ]
+    },
+    "DIPAS/BDEAS/HCDS/TEOS前驱体": {
+      "layer": "产品",
+      "fact_ids": [
+        "F-015",
+        "F-118"
+      ]
+    },
+    "客户验证状态待披露": {
+      "layer": "客户状态",
+      "fact_ids": [
+        "F-090",
+        "F-092"
+      ]
+    },
+    "N2/A14": {
+      "layer": "节点/结构",
+      "fact_ids": [
+        "F-020",
+        "F-120",
+        "F-121"
+      ]
+    }
+  }
+}
